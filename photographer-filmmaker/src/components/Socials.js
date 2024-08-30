@@ -1,9 +1,16 @@
 import React from 'react'
+import {ImFacebook, ImTwitter, ImPinterest, ImInstagram, ImYoutube} from 'react-icons/im'
 
 const Socials = () => {
   return (
     <div className='hidden xl:flex ml-24'>
-      socials
+      <ul className='flex gap-x-4'>
+        <li><a href='https://www.facebook.com/' target='_blank'><ImFacebook/></a></li>
+        <li><a href='https://x.com/?lang=en' target='_blank'><ImTwitter/></a></li>
+        <li><a href='https://in.pinterest.com/' target='_blank'><ImPinterest/></a></li>
+        <li><a href='https://www.instagram.com/' target='_blank'><ImInstagram/></a></li>
+        <li><a href='https://www.youtube.com/' target='_blank'><ImYoutube/></a></li>
+      </ul>
     </div>
   )
 }
