@@ -2,9 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
-      
-    </div>
+    <section className='bg-yellow-200 section'>about</section>
   )
 }
 
